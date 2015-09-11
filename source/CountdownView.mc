@@ -3,9 +3,10 @@ using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Attention as Attn;
 
+var countdownTimer;
+
 class CountdownView extends Ui.View {
 	var secs = 3;
-	var timer;
 	var shortVibe;
 	var longVibe;
 	
@@ -18,8 +19,8 @@ class CountdownView extends Ui.View {
     //! the state of this View and prepare it to be shown. This includes
     //! loading resources into memory.
     function onShow() {
-      	timer = new Timer.Timer();
-    	timer.start(method(:timerCountdown), 1000, true);
+      	countdownTimer = new Timer.Timer();
+    	countdownTimer.start(method(:timerCountdown), 1000, true);
     	shortVibe = [new Attn.VibeProfile(100, 250)];
     	Attn.vibrate(shortVibe);
 		Attn.playTone(Attn.TONE_KEY);
@@ -43,7 +44,7 @@ class CountdownView extends Ui.View {
 		var countdownView = View.findDrawableById("countdown");
 		countdownView.setText(secs.format("%d"));
 		if(secs == 0) {
-			timer.stop();
+			countdownTimer.stop();
 			Ui.popView(Ui.SLIDE_DOWN);
 			state = STATE_RUNNING;
 			Ui.pushView(new PacingView(), new PacingDelegate(), Ui.SLIDE_UP);
@@ -57,6 +58,14 @@ class CountdownView extends Ui.View {
 
 class CountdownDelegate extends Ui.BehaviorDelegate {
 	function onKey(evt) {
+		if(evt.getKey() == Ui.KEY_ESC && evt.getType() == Ui.PRESS_TYPE_ACTION) {
+			countdownTimer.stop();
+    		// go back to the setup screen
+			state = STATE_READY;
+			Ui.popView(Ui.SLIDE_DOWN);
+			return true;
+		}
+		
 		return false;
     }
 }
