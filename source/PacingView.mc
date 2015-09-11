@@ -2,11 +2,12 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Attention as Attn;
+using Toybox.ActivityRecording as Recording;
+using Toybox.Sensor as Sensor;
 
 var pacingTimer;
 var lapNbr = 1;
-
-// TODO: recording data
+var session;
 
 class PacingView extends Ui.View {
 	var msTotal = mins * 60 * 1000;
@@ -35,6 +36,14 @@ class PacingView extends Ui.View {
 		];
 		Attn.playTone(Attn.TONE_START);
 		Attn.vibrate(startVibe);
+		// get ready to start a new FIT recording
+		session = Recording.createSession({
+			:name => "Derby Laps",
+			:sport => Recording.SPORT_TRAINING
+		});
+		// turn on the heart rate and temperature sensors and start recording
+		Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE, Sensor.SENSOR_TEMPERATURE]);
+		session.start();
     }
 
     //! Called when this View is brought to the foreground. Restore
@@ -73,6 +82,9 @@ class PacingView extends Ui.View {
 			Attn.playTone(Attn.TONE_STOP);
     		
     		pacingTimer.stop();
+			// stop and save the FIT recording
+    		session.stop();
+    		session.save();
     		state = STATE_READY;
     		Ui.popView(Ui.SLIDE_DOWN);
 			return;
@@ -81,7 +93,10 @@ class PacingView extends Ui.View {
 		// calculate the current lap number and act on it if required
 		lapNbr = ((msTotal - msRemaining) / msPerLap) + 1;
 		if(lapNbr > prevLapNbr) {
-			// new lap, show them in large text the new lap number
+			// new lap
+			// add the new lap to the FIT recording session
+			session.addLap();
+			// show them in large text the new lap number
 			// this view will pop itself after being displayed for a brief time
 			Ui.pushView(new LapNotifyView(), new LapNotifyDelegate(), Ui.SLIDE_IMMEDIATE);
 			// buzz to indicate the skater should be at the start line right now
@@ -98,6 +113,10 @@ class PacingDelegate extends Ui.BehaviorDelegate {
 	function onKey(evt) {
 		if(evt.getKey() == Ui.KEY_ESC && evt.getType() == Ui.PRESS_TYPE_ACTION) {
 			pacingTimer.stop();
+			// stop and save whatever we have so far in the FIT recording
+    		session.stop();
+    		session.save();
+    		// go back to the setup screen
 			state = STATE_READY;
 			Ui.popView(Ui.SLIDE_DOWN);
 			return true;

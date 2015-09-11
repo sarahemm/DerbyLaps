@@ -6,6 +6,8 @@
         </iq:products>
 
         <iq:permissions>
+			<iq:uses-permission id="FIT"/>
+			<iq:uses-permission id="Sensor"/>
         </iq:permissions>
 
         <iq:languages/>
