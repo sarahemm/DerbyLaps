@@ -4,6 +4,7 @@ using Toybox.System as Sys;
 using Toybox.Attention as Attn;
 
 var pacingTimer;
+var lapNbr = 1;
 
 // TODO: recording data, tweaking vibeprofiles, prettyness
 
@@ -12,7 +13,6 @@ class PacingView extends Ui.View {
 	var msRemaining = msTotal;
 	var msPerLap = msTotal / laps;
 	var prevLapNbr = 1;
-	var lapNbr = 1;
 	var startVibe;
 	var lapVibe;
 	var doneVibe;
@@ -20,12 +20,6 @@ class PacingView extends Ui.View {
     //! Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.PacingLayout(dc));
-    }
-
-    //! Called when this View is brought to the foreground. Restore
-    //! the state of this View and prepare it to be shown. This includes
-    //! loading resources into memory.
-    function onShow() {
     	pacingTimer = new Timer.Timer();
 		pacingTimer.start(method(:timerPacingTimer), 100, true);
     	startVibe = [new Attn.VibeProfile(100, 750)];
@@ -42,6 +36,12 @@ class PacingView extends Ui.View {
 		];
 		Attn.playTone(Attn.TONE_START);
 		Attn.vibrate(startVibe);
+    }
+
+    //! Called when this View is brought to the foreground. Restore
+    //! the state of this View and prepare it to be shown. This includes
+    //! loading resources into memory.
+    function onShow() {
     }
 
     //! Update the view
@@ -82,7 +82,10 @@ class PacingView extends Ui.View {
 		// calculate the current lap number and act on it if required
 		lapNbr = ((msTotal - msRemaining) / msPerLap) + 1;
 		if(lapNbr > prevLapNbr) {
-    		// new lap, buzz to indicate the skater should be at the start line right now
+			// new lap, show them in large text the new lap number
+			// this view will pop itself after being displayed for a brief time
+			Ui.pushView(new LapNotifyView(), new LapNotifyDelegate(), Ui.SLIDE_IMMEDIATE);
+			// buzz to indicate the skater should be at the start line right now
 			Attn.vibrate(lapVibe);
 			Attn.playTone(Attn.TONE_LAP);
     	}
