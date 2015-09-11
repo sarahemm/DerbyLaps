@@ -2,7 +2,9 @@
     <iq:application entry="DerbyLapsApp" id="4E0DD33BB37D4BCCAB2AA33B392EA1E3" launcherIcon="LauncherIcon" name="AppName" type="watch-app">
 
         <iq:products>
+            <iq:product id="round_watch"/>
             <iq:product id="fenix3"/>
+            <iq:product id="d2bravo"/>
         </iq:products>
 
         <iq:permissions>
