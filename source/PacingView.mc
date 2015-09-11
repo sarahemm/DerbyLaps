@@ -6,7 +6,7 @@ using Toybox.Attention as Attn;
 var pacingTimer;
 var lapNbr = 1;
 
-// TODO: recording data, tweaking vibeprofiles, prettyness
+// TODO: recording data
 
 class PacingView extends Ui.View {
 	var msTotal = mins * 60 * 1000;
@@ -25,14 +25,13 @@ class PacingView extends Ui.View {
     	startVibe = [new Attn.VibeProfile(100, 750)];
 		lapVibe = [new Attn.VibeProfile(100, 250)];
 		doneVibe = [
-			new Attn.VibeProfile(100, 200),
-			new Attn.VibeProfile(0, 100),
-			new Attn.VibeProfile(100, 500),
-			new Attn.VibeProfile(0, 100),
-			new Attn.VibeProfile(100, 200),
-			new Attn.VibeProfile(0, 100),
-			new Attn.VibeProfile(100, 500),
-			new Attn.VibeProfile(0, 100)
+			new Attn.VibeProfile(100, 1000),
+			new Attn.VibeProfile(50,  250),
+			new Attn.VibeProfile(25,  250),
+			new Attn.VibeProfile(0,   250),
+			new Attn.VibeProfile(25,  250),
+			new Attn.VibeProfile(50,  250),
+			new Attn.VibeProfile(100, 1000)
 		];
 		Attn.playTone(Attn.TONE_START);
 		Attn.vibrate(startVibe);
