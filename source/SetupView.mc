@@ -20,18 +20,25 @@ class SetupView extends Ui.View {
     	// update the display for the current state
     	var lapsView = View.findDrawableById("laps");
     	var minsView = View.findDrawableById("mins");
+    	var minsLabelView = View.findDrawableById("minsLabel");
     	var readyView = View.findDrawableById("ready");
 		if(state == STATE_SET_LAPS) {
 			lapsView.setColor(Gfx.COLOR_GREEN);
-			minsView.setColor(Gfx.COLOR_WHITE);
+			minsView.setColor(Gfx.COLOR_LT_GRAY);
 			lapsView.setText(laps.format("%d"));
 		} else if(state == STATE_SET_MINS) {
-			lapsView.setColor(Gfx.COLOR_WHITE);
+			lapsView.setColor(Gfx.COLOR_LT_GRAY);
 			minsView.setColor(Gfx.COLOR_GREEN);
 			minsView.setText(mins.format("%d"));
+			if(mins == 1) {
+				minsLabelView.setText("minute");
+			} else {
+				minsLabelView.setText("minutes");
+			}
 			readyView.setColor(Gfx.COLOR_BLACK);
 		} else if(state == STATE_READY) {
 			minsView.setColor(Gfx.COLOR_WHITE);
+			lapsView.setColor(Gfx.COLOR_WHITE);
 			readyView.setColor(Gfx.COLOR_GREEN);
 		}	
     
