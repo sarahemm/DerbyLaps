@@ -7,11 +7,11 @@ using Toybox.Sensor as Sensor;
 
 var pacingTimer;
 var lapNbr = 1;
+var msRemaining;
 var session;
 
 class PacingView extends Ui.View {
 	var msTotal = mins * 60 * 1000;
-	var msRemaining = msTotal;
 	var msPerLap = msTotal / laps;
 	var prevLapNbr = 1;
 	var startVibe;
@@ -21,6 +21,7 @@ class PacingView extends Ui.View {
     //! Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.PacingLayout(dc));
+    	msRemaining = msTotal;
     	pacingTimer = new Timer.Timer();
 		pacingTimer.start(method(:timerPacingTimer), 100, true);
     	startVibe = [new Attn.VibeProfile(100, 750)];
@@ -86,7 +87,8 @@ class PacingView extends Ui.View {
     		session.stop();
     		session.save();
     		state = STATE_READY;
-    		Ui.popView(Ui.SLIDE_DOWN);
+    		Ui.popView(Ui.SLIDE_IMMEDIATE);
+			Ui.pushView(new LapNotifyView(), new LapNotifyDelegate(), Ui.SLIDE_IMMEDIATE);
 			return;
     	}
 
