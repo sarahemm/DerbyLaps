@@ -1,4 +1,4 @@
 <layout id="LapNotifyLayout">
-	<label id="lapLabel" x="center" y="40"     text="Lap" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	<label id="lapLabel" x="center" y="8"     text="Lap" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
     <label id="lap"      x="center" y="center" text=""    font="Gfx.FONT_NUMBER_THAI_HOT" color="Gfx.COLOR_BLUE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 </layout>
