@@ -23,7 +23,7 @@ class CountdownView extends Ui.View {
     	countdownTimer.start(method(:timerCountdown), 1000, true);
     	shortVibe = [new Attn.VibeProfile(100, 250)];
     	Attn.vibrate(shortVibe);
-		Attn.playTone(Attn.TONE_KEY);
+		// Attn.playTone(Attn.TONE_KEY);
     }
 
     //! Update the view
@@ -50,7 +50,7 @@ class CountdownView extends Ui.View {
 			Ui.pushView(new PacingView(), new PacingDelegate(), Ui.SLIDE_UP);
 	 	} else {
 	 		Attn.vibrate(shortVibe);
-			Attn.playTone(Attn.TONE_KEY);
+			// Attn.playTone(Attn.TONE_KEY);
 	 	}
 		Ui.requestUpdate();
 	}
