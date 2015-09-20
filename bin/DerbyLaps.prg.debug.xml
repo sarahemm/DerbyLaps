@@ -95,8 +95,8 @@
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="105" pc="268438650" symbol="timerPacingTimer"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="108" pc="268438677" symbol="timerPacingTimer"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="110" pc="268438693" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="14" pc="268442794" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="15" pc="268442822" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="14" pc="268443154" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="15" pc="268443182" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="116" pc="268438713" symbol="onKey"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="117" pc="268438770" symbol="onKey"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="119" pc="268438788" symbol="onKey"/>
@@ -120,7 +120,7 @@
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="45" pc="268439198" symbol="timerHide"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="51" pc="268439230" symbol="onKey"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\DerbyLapsApp.mc" lineNum="29" pc="268439243" symbol="getInitialView"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\DerbyLapsApp.mc" lineNum="13" pc="268442575" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\DerbyLapsApp.mc" lineNum="13" pc="268442908" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="15" pc="268439314" symbol="onLayout"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="22" pc="268439354" symbol="onShow"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="23" pc="268439390" symbol="onShow"/>
@@ -143,56 +143,62 @@
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="65" pc="268439908" symbol="onKey"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="66" pc="268439936" symbol="onKey"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="69" pc="268439942" symbol="onKey"/>
-<entry filename="Rez" lineNum="5" pc="268442671" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268442649" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="11" pc="268442658" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="20" pc="268439949" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="21" pc="268440037" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="22" pc="268440089" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="23" pc="268440103" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="24" pc="268440226" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="25" pc="268440240" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="26" pc="268440363" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="27" pc="268440378" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="28" pc="268440430" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="29" pc="268440444" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="30" pc="268440567" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="31" pc="268440581" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="32" pc="268440704" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="33" pc="268440718" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="34" pc="268440854" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="35" pc="268440868" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="36" pc="268441004" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="37" pc="268441018" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="38" pc="268441141" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="39" pc="268441156" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="40" pc="268441208" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="50" pc="268441298" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="51" pc="268441312" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="52" pc="268441435" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="53" pc="268441449" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="54" pc="268441585" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="55" pc="268441599" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="56" pc="268441709" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="57" pc="268441724" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="58" pc="268441776" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="59" pc="268441822" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="69" pc="268441862" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="70" pc="268441876" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="71" pc="268441999" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="72" pc="268442014" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="73" pc="268442066" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="74" pc="268442080" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="75" pc="268442177" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="76" pc="268442192" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="77" pc="268442244" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="78" pc="268442290" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="88" pc="268442320" symbol="CountdownLayout"/>
-<entry filename="Rez" lineNum="89" pc="268442334" symbol="CountdownLayout"/>
-<entry filename="Rez" lineNum="90" pc="268442444" symbol="CountdownLayout"/>
-<entry filename="Rez" lineNum="91" pc="268442459" symbol="CountdownLayout"/>
-<entry filename="Rez" lineNum="92" pc="268442511" symbol="CountdownLayout"/>
-<entry filename="Rez" lineNum="93" pc="268442557" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="5" pc="268443031" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="10" pc="268442982" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="11" pc="268442991" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="12" pc="268443000" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="13" pc="268443009" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="14" pc="268443018" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="23" pc="268439949" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="24" pc="268440037" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="25" pc="268440089" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="26" pc="268440190" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="27" pc="268440204" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="28" pc="268440327" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="29" pc="268440341" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="30" pc="268440477" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="31" pc="268440491" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="32" pc="268440614" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="33" pc="268440628" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="34" pc="268440751" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="35" pc="268440765" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="36" pc="268440901" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="37" pc="268440915" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="38" pc="268441051" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="39" pc="268441065" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="40" pc="268441201" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="41" pc="268441302" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="42" pc="268441403" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="52" pc="268441523" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="53" pc="268441537" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="54" pc="268441647" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="55" pc="268441662" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="56" pc="268441714" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="57" pc="268441728" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="58" pc="268441851" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="59" pc="268441866" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="60" pc="268441918" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="61" pc="268441932" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="62" pc="268442042" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="63" pc="268442057" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="64" pc="268442109" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="65" pc="268442155" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="75" pc="268442195" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="76" pc="268442209" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="77" pc="268442332" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="78" pc="268442347" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="79" pc="268442399" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="80" pc="268442413" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="81" pc="268442510" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="82" pc="268442525" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="83" pc="268442577" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="84" pc="268442623" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="94" pc="268442653" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="95" pc="268442667" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="96" pc="268442777" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="97" pc="268442792" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="98" pc="268442844" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="99" pc="268442890" symbol="CountdownLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -255,7 +261,7 @@
 <entry field="true" id="8389073" symbol="BEHAVIOR_PREVIOUS_PAGE"/>
 <entry field="true" id="8389155" symbol="FONT_MEDIUM"/>
 <entry id="8388663" method="true" symbol="testAdd"/>
-<entry field="true" id="40" symbol="msPerLap"/>
+<entry field="true" id="43" symbol="msPerLap"/>
 <entry id="8389119" method="true" symbol="getDirection"/>
 <entry field="true" id="8389475" symbol="rightPedalSmoothness"/>
 <entry id="8389101" method="true" symbol="onSwipe"/>
@@ -287,7 +293,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="38" symbol="AppName"/>
+<entry field="true" id="41" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -364,7 +370,7 @@
 <entry field="true" id="8388838" symbol="SPORT_TENNIS"/>
 <entry field="true" id="8388961" symbol="power"/>
 <entry field="true" id="8388747" symbol="currentHeartRate"/>
-<entry field="true" id="47" symbol="shortVibe"/>
+<entry field="true" id="50" symbol="shortVibe"/>
 <entry field="true" id="8388967" symbol="TONE_START"/>
 <entry field="true" id="8389143" symbol="weight"/>
 <entry field="true" id="8389006" symbol="ANIM_TYPE_LINEAR"/>
@@ -373,11 +379,11 @@
 <entry id="8389026" method="true" symbol="requestUpdate"/>
 <entry field="true" id="8388997" symbol="KEY_MENU"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
-<entry id="37" method="true" symbol="CountdownLayout"/>
+<entry id="40" method="true" symbol="CountdownLayout"/>
 <entry field="true" id="8389497" symbol="bodyFatPercentage"/>
 <entry id="8388798" method="true" symbol="toLower"/>
 <entry field="true" id="8388735" symbol="currentLocationAccuracy"/>
-<entry id="34" method="true" symbol="SetupLayout"/>
+<entry id="37" method="true" symbol="SetupLayout"/>
 <entry id="8388677" method="true" symbol="testTypeConversion"/>
 <entry id="8388942" method="true" symbol="add"/>
 <entry id="8388889" symbol="mIndex"/>
@@ -411,6 +417,7 @@
 <entry id="8389098" method="true" symbol="onTap"/>
 <entry field="true" id="8389416" symbol="BATT_STATUS_INVALID"/>
 <entry field="true" id="8389417" symbol="BATT_STATUS_CNT"/>
+<entry field="true" id="36" symbol="down_arrow"/>
 <entry id="8388759" object="true" symbol="Long"/>
 <entry id="8388945" method="true" symbol="lessThan"/>
 <entry field="true" id="8389239" symbol="DATA_PAYLOAD_LENGTH"/>
@@ -614,7 +621,7 @@
 <entry id="8389130" symbol="mColor"/>
 <entry id="8388888" symbol="mLocation"/>
 <entry field="true" id="8389500" symbol="hydrationPercentage"/>
-<entry id="36" method="true" symbol="LapNotifyLayout"/>
+<entry id="39" method="true" symbol="LapNotifyLayout"/>
 <entry id="8389283" method="true" symbol="setProperty"/>
 <entry field="true" id="8389089" symbol="MAX_SIZE"/>
 <entry field="true" id="8389401" symbol="is24Hour"/>
@@ -802,7 +809,7 @@
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry field="true" id="8388843" symbol="SPORT_ALPINE_SKIING"/>
 <entry field="true" id="8389262" symbol="DEFAULT_DEVICE_NUMBER"/>
-<entry field="true" id="43" symbol="lapVibe"/>
+<entry field="true" id="46" symbol="lapVibe"/>
 <entry field="true" id="8389543" symbol="phoneConnected"/>
 <entry id="8388904" method="true" symbol="srand"/>
 <entry field="true" id="8389413" symbol="BATT_STATUS_OK"/>
@@ -838,7 +845,7 @@
 <entry field="true" id="8389017" symbol="SWIPE_DOWN"/>
 <entry id="8388656" object="true" symbol="InputDelegate"/>
 <entry field="true" id="8388720" symbol="hour"/>
-<entry id="49" method="true" symbol="timerCountdown"/>
+<entry id="52" method="true" symbol="timerCountdown"/>
 <entry id="8389134" method="true" symbol="setText"/>
 <entry id="8389255" method="true" symbol="setDeviceConfig"/>
 <entry id="8388909" method="true" symbol="getInfo"/>
@@ -875,15 +882,16 @@
 <entry id="8389353" symbol="&lt;dan&gt;"/>
 <entry field="true" id="8388840" symbol="SPORT_TRAINING"/>
 <entry field="true" id="32" symbol="track_icon"/>
-<entry field="true" id="41" symbol="prevLapNbr"/>
+<entry field="true" id="44" symbol="prevLapNbr"/>
 <entry id="26" object="true" symbol="CountdownView"/>
 <entry field="true" id="8388981" symbol="TONE_SUCCESS"/>
 <entry id="8389514" method="true" symbol="getCalculatedWheelDistance"/>
 <entry id="8388985" method="true" symbol="playTone"/>
 <entry field="true" id="8388736" symbol="currentLocation"/>
+<entry field="true" id="34" symbol="right_arrow"/>
 <entry field="true" id="8388916" symbol="startOfDay"/>
 <entry field="true" id="8388752" symbol="maxCadence"/>
-<entry field="true" id="44" symbol="doneVibe"/>
+<entry field="true" id="47" symbol="doneVibe"/>
 <entry id="8389338" symbol="minute"/>
 <entry id="8389086" symbol="mProgressValue"/>
 <entry field="true" id="8389199" symbol="MSG_ID_CHANNEL_ID"/>
@@ -983,7 +991,7 @@
 <entry id="8389308" method="true" symbol="toRadians"/>
 <entry id="8389083" method="true" symbol="onPreviousMode"/>
 <entry field="true" id="8389474" symbol="leftOrCombinedPedalSmoothness"/>
-<entry field="true" id="46" symbol="secs"/>
+<entry field="true" id="49" symbol="secs"/>
 <entry id="8389286" method="true" symbol="loadProperties"/>
 <entry field="true" id="8388863" symbol="SUB_SPORT_TRACK_CYCLING"/>
 <entry field="true" id="8388733" symbol="timerTime"/>
@@ -1035,7 +1043,7 @@
 <entry field="true" id="8389448" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_2"/>
 <entry field="true" id="8389447" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_1"/>
 <entry field="true" id="8389446" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_0"/>
-<entry field="true" id="48" symbol="longVibe"/>
+<entry field="true" id="51" symbol="longVibe"/>
 <entry field="true" id="8389387" symbol="FONT_NUMBER_HOT"/>
 <entry id="8389373" symbol="&lt;jpn&gt;"/>
 <entry id="8388762" object="true" symbol="Boolean"/>
@@ -1065,6 +1073,7 @@
 <entry id="8389512" method="true" symbol="getCalculatedPower"/>
 <entry field="true" id="8388872" symbol="SUB_SPORT_MATCH"/>
 <entry id="8389567" method="true" symbol="getNumberOfTests"/>
+<entry field="true" id="35" symbol="up_arrow"/>
 <entry field="true" id="8389456" symbol="WEIGHT_SCALE_STATUS_SEARCHING"/>
 <entry id="8389136" method="true" symbol="getKey"/>
 <entry id="8388758" object="true" symbol="Number"/>
@@ -1145,7 +1154,7 @@
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="8389504" symbol="crankCadence"/>
 <entry field="true" id="8389291" symbol="GEO_DMS"/>
-<entry id="35" method="true" symbol="PacingLayout"/>
+<entry id="38" method="true" symbol="PacingLayout"/>
 <entry field="true" id="8388955" symbol="SENSOR_TEMPERATURE"/>
 <entry field="true" id="8388894" symbol="E"/>
 <entry id="8388707" method="true" symbol="insertWithPut"/>
@@ -1156,11 +1165,11 @@
 <entry id="8389346" symbol="text"/>
 <entry field="true" id="8388749" symbol="maxHeartRate"/>
 <entry id="8389181" method="true" symbol="drawRectangle"/>
-<entry field="true" id="39" symbol="msTotal"/>
+<entry field="true" id="42" symbol="msTotal"/>
 <entry field="true" id="8389403" symbol="paceUnits"/>
 <entry id="8389341" symbol="days"/>
 <entry field="true" id="8388977" symbol="TONE_CANARY"/>
-<entry field="true" id="42" symbol="startVibe"/>
+<entry field="true" id="45" symbol="startVibe"/>
 <entry field="true" id="8388919" symbol="FORMAT_LONG"/>
 <entry field="true" id="8389459" symbol="WEIGHT_SCALE_STATUS_RECEIVING"/>
 <entry id="8388903" method="true" symbol="sqrt"/>
@@ -1183,7 +1192,7 @@
 <entry field="true" id="8389507" symbol="activityLevel"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8389333" symbol="tuesday"/>
-<entry id="45" method="true" symbol="timerPacingTimer"/>
+<entry id="48" method="true" symbol="timerPacingTimer"/>
 <entry field="true" id="8389018" symbol="SWIPE_LEFT"/>
 <entry id="8388682" method="true" symbol="testNaN"/>
 <entry field="true" id="8389444" symbol="WEIGHT_SCALE_GENDER_UNASSIGNED"/>
