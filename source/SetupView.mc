@@ -99,7 +99,7 @@ class SetupDelegate extends Ui.BehaviorDelegate {
     
     function onTap(evt){
        var tmp = evt.getCoordinates();
-       if( Math.pow((tmp[0] - 173),2) + Math.pow((tmp[1] - 83),2) < Math.pow(11, 2) && evt.getType() == Ui.CLICK_TYPE_TAP) {
+       if( (Math.pow((tmp[0] - 20),2) + Math.pow((tmp[1] - 125),2) < Math.pow(15, 2)) && evt.getType() == Ui.CLICK_TYPE_TAP) {
 			// increment the field currently being set
 			if(state == STATE_SET_LAPS) {
 				laps += 1;
@@ -108,7 +108,7 @@ class SetupDelegate extends Ui.BehaviorDelegate {
 				mins += 1;
 				if(mins > 30) { mins = 30; }
 			}
-       	}  else if( Math.pow((tmp[0] - 173),2) + Math.pow((tmp[1] - 124),2) < Math.pow(11, 2) && evt.getType() == Ui.CLICK_TYPE_TAP) {
+       	}  else if( (Math.pow((tmp[0] - 185),2) + Math.pow((tmp[1] - 125),2) < Math.pow(20, 2)) && evt.getType() == Ui.CLICK_TYPE_TAP) {
 			// decrement the field currently being set
 			if(state == STATE_SET_LAPS) {
 				laps -= 1;
