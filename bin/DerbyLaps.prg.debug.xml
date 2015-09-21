@@ -45,160 +45,177 @@
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="92" pc="268436728" symbol="onKey"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="94" pc="268436731" symbol="onKey"/>
 <entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="95" pc="268436747" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="101" pc="268436753" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="102" pc="268436766" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="104" pc="268436900" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="105" pc="268436920" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="106" pc="268436939" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="106" pc="268436956" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="108" pc="268436995" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="109" pc="268437014" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="109" pc="268437031" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="113" pc="268437187" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="114" pc="268437207" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="115" pc="268437226" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="115" pc="268437243" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="118" pc="268437282" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="119" pc="268437301" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="119" pc="268437318" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="122" pc="268437340" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="124" pc="268437343" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="125" pc="268437359" symbol="onTap"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="23" pc="268437366" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="24" pc="268437403" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="25" pc="268437419" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="26" pc="268437455" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="27" pc="268437496" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="28" pc="268437554" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="29" pc="268437612" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="39" pc="268437934" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="41" pc="268437958" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="47" pc="268438020" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="58" pc="268438044" symbol="onUpdate"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="59" pc="268438068" symbol="onUpdate"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="60" pc="268438092" symbol="onUpdate"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="65" pc="268438224" symbol="onUpdate"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="68" pc="268438258" symbol="onUpdate"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="78" pc="268438284" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="80" pc="268438303" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="82" pc="268438320" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="85" pc="268438344" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="87" pc="268438362" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="88" pc="268438380" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="89" pc="268438398" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="90" pc="268438414" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="91" pc="268438442" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="92" pc="268438514" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="96" pc="268438518" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="97" pc="268438558" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="103" pc="268438578" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="105" pc="268438650" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="108" pc="268438677" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="110" pc="268438693" symbol="timerPacingTimer"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="14" pc="268443154" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="15" pc="268443182" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="116" pc="268438713" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="117" pc="268438770" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="119" pc="268438788" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="120" pc="268438806" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="122" pc="268438824" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="123" pc="268438840" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="124" pc="268438868" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="127" pc="268438874" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="11" pc="268438881" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="12" pc="268438918" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="13" pc="268438954" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="20" pc="268438998" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="21" pc="268439022" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="22" pc="268439046" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="23" pc="268439063" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="24" pc="268439080" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="26" pc="268439100" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="27" pc="268439117" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="34" pc="268439154" symbol="onUpdate"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="44" pc="268439180" symbol="timerHide"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="45" pc="268439198" symbol="timerHide"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="51" pc="268439230" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\DerbyLapsApp.mc" lineNum="29" pc="268439243" symbol="getInitialView"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\DerbyLapsApp.mc" lineNum="13" pc="268442908" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="15" pc="268439314" symbol="onLayout"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="22" pc="268439354" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="23" pc="268439390" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="24" pc="268439431" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="25" pc="268439489" symbol="onShow"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="33" pc="268439516" symbol="onUpdate"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="43" pc="268439542" symbol="timerCountdown"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="44" pc="268439561" symbol="timerCountdown"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="45" pc="268439585" symbol="timerCountdown"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="46" pc="268439619" symbol="timerCountdown"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="47" pc="268439636" symbol="timerCountdown"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="48" pc="268439654" symbol="timerCountdown"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="49" pc="268439682" symbol="timerCountdown"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="50" pc="268439698" symbol="timerCountdown"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="52" pc="268439773" symbol="timerCountdown"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="55" pc="268439797" symbol="timerCountdown"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="61" pc="268439817" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="62" pc="268439874" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="64" pc="268439892" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="65" pc="268439908" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="66" pc="268439936" symbol="onKey"/>
-<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="69" pc="268439942" symbol="onKey"/>
-<entry filename="Rez" lineNum="5" pc="268443031" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="10" pc="268442982" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="11" pc="268442991" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="12" pc="268443000" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="13" pc="268443009" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="14" pc="268443018" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="23" pc="268439949" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="24" pc="268440037" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="25" pc="268440089" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="26" pc="268440190" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="27" pc="268440204" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="28" pc="268440327" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="29" pc="268440341" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="30" pc="268440477" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="31" pc="268440491" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="32" pc="268440614" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="33" pc="268440628" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="34" pc="268440751" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="35" pc="268440765" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="36" pc="268440901" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="37" pc="268440915" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="38" pc="268441051" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="39" pc="268441065" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="40" pc="268441201" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="41" pc="268441302" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="42" pc="268441403" symbol="SetupLayout"/>
-<entry filename="Rez" lineNum="52" pc="268441523" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="53" pc="268441537" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="54" pc="268441647" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="55" pc="268441662" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="56" pc="268441714" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="57" pc="268441728" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="58" pc="268441851" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="59" pc="268441866" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="60" pc="268441918" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="61" pc="268441932" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="62" pc="268442042" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="63" pc="268442057" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="64" pc="268442109" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="65" pc="268442155" symbol="PacingLayout"/>
-<entry filename="Rez" lineNum="75" pc="268442195" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="76" pc="268442209" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="77" pc="268442332" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="78" pc="268442347" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="79" pc="268442399" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="80" pc="268442413" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="81" pc="268442510" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="82" pc="268442525" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="83" pc="268442577" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="84" pc="268442623" symbol="LapNotifyLayout"/>
-<entry filename="Rez" lineNum="94" pc="268442653" symbol="CountdownLayout"/>
-<entry filename="Rez" lineNum="95" pc="268442667" symbol="CountdownLayout"/>
-<entry filename="Rez" lineNum="96" pc="268442777" symbol="CountdownLayout"/>
-<entry filename="Rez" lineNum="97" pc="268442792" symbol="CountdownLayout"/>
-<entry filename="Rez" lineNum="98" pc="268442844" symbol="CountdownLayout"/>
-<entry filename="Rez" lineNum="99" pc="268442890" symbol="CountdownLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="99" pc="268436753" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="100" pc="268436766" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="102" pc="268436900" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="103" pc="268436920" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="104" pc="268436939" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="104" pc="268436956" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="106" pc="268436995" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="107" pc="268437014" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="107" pc="268437031" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="111" pc="268437187" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="112" pc="268437207" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="113" pc="268437226" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="113" pc="268437243" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="116" pc="268437282" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="117" pc="268437301" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="117" pc="268437318" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="120" pc="268437340" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="122" pc="268437343" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\SetupView.mc" lineNum="123" pc="268437359" symbol="onTap"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="27" pc="268437366" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="28" pc="268437403" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="29" pc="268437419" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="30" pc="268437455" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="31" pc="268437496" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="32" pc="268437554" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="33" pc="268437612" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="42" pc="268437934" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="43" pc="268437960" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="45" pc="268437991" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="47" pc="268438015" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="53" pc="268438077" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="54" pc="268438103" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="56" pc="268438168" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="67" pc="268438192" symbol="onUpdate"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="68" pc="268438216" symbol="onUpdate"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="69" pc="268438240" symbol="onUpdate"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="74" pc="268438372" symbol="onUpdate"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="77" pc="268438406" symbol="onUpdate"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="87" pc="268438432" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="89" pc="268438451" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="91" pc="268438468" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="93" pc="268438492" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="94" pc="268438518" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="97" pc="268438549" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="99" pc="268438567" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="100" pc="268438585" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="101" pc="268438603" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="102" pc="268438619" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="103" pc="268438647" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="104" pc="268438719" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="108" pc="268438723" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="109" pc="268438763" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="113" pc="268438783" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="114" pc="268438809" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="119" pc="268438830" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="121" pc="268438902" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="123" pc="268438926" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="124" pc="268438952" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="127" pc="268438986" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="129" pc="268439002" symbol="timerPacingTimer"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="16" pc="268443586" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="17" pc="268443614" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="23" pc="268443639" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="135" pc="268439022" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="136" pc="268439079" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="138" pc="268439097" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="139" pc="268439115" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="141" pc="268439133" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="142" pc="268439149" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="143" pc="268439177" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\PacingView.mc" lineNum="146" pc="268439183" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="11" pc="268439190" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="12" pc="268439227" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="13" pc="268439263" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="20" pc="268439307" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="21" pc="268439331" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="22" pc="268439355" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="23" pc="268439372" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="24" pc="268439389" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="26" pc="268439409" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="27" pc="268439426" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="34" pc="268439463" symbol="onUpdate"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="44" pc="268439489" symbol="timerHide"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="45" pc="268439507" symbol="timerHide"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\LapNotifyView.mc" lineNum="51" pc="268439539" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\DerbyLapsApp.mc" lineNum="29" pc="268439552" symbol="getInitialView"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\DerbyLapsApp.mc" lineNum="13" pc="268443331" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="17" pc="268439623" symbol="onLayout"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="24" pc="268439663" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="25" pc="268439699" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="26" pc="268439740" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="27" pc="268439798" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="29" pc="268439822" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="30" pc="268439848" symbol="onShow"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="38" pc="268439882" symbol="onUpdate"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="48" pc="268439908" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="49" pc="268439927" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="50" pc="268439951" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="51" pc="268439985" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="52" pc="268440002" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="53" pc="268440020" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="54" pc="268440048" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="55" pc="268440064" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="57" pc="268440139" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="59" pc="268440163" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="60" pc="268440189" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="63" pc="268440220" symbol="timerCountdown"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="12" pc="268443701" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="69" pc="268440240" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="70" pc="268440297" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="72" pc="268440315" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="73" pc="268440331" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="74" pc="268440359" symbol="onKey"/>
+<entry filename="C:\\Users\\atropa\\git\\DerbyLaps\\source\\CountdownView.mc" lineNum="77" pc="268440365" symbol="onKey"/>
+<entry filename="Rez" lineNum="5" pc="268443454" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="6" pc="268443463" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="11" pc="268443405" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="12" pc="268443414" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="13" pc="268443423" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="14" pc="268443432" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="15" pc="268443441" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="24" pc="268440372" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="25" pc="268440460" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="26" pc="268440512" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="27" pc="268440613" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="28" pc="268440627" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="29" pc="268440750" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="30" pc="268440764" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="31" pc="268440900" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="32" pc="268440914" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="33" pc="268441037" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="34" pc="268441051" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="35" pc="268441174" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="36" pc="268441188" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="37" pc="268441324" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="38" pc="268441338" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="39" pc="268441474" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="40" pc="268441488" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="41" pc="268441624" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="42" pc="268441725" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="43" pc="268441826" symbol="SetupLayout"/>
+<entry filename="Rez" lineNum="53" pc="268441946" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="54" pc="268441960" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="55" pc="268442070" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="56" pc="268442085" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="57" pc="268442137" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="58" pc="268442151" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="59" pc="268442274" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="60" pc="268442289" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="61" pc="268442341" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="62" pc="268442355" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="63" pc="268442465" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="64" pc="268442480" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="65" pc="268442532" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="66" pc="268442578" symbol="PacingLayout"/>
+<entry filename="Rez" lineNum="76" pc="268442618" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="77" pc="268442632" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="78" pc="268442755" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="79" pc="268442770" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="80" pc="268442822" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="81" pc="268442836" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="82" pc="268442933" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="83" pc="268442948" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="84" pc="268443000" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="85" pc="268443046" symbol="LapNotifyLayout"/>
+<entry filename="Rez" lineNum="95" pc="268443076" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="96" pc="268443090" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="97" pc="268443200" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="98" pc="268443215" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="99" pc="268443267" symbol="CountdownLayout"/>
+<entry filename="Rez" lineNum="100" pc="268443313" symbol="CountdownLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8389359" symbol="&lt;gre&gt;"/>
@@ -261,7 +278,7 @@
 <entry field="true" id="8389073" symbol="BEHAVIOR_PREVIOUS_PAGE"/>
 <entry field="true" id="8389155" symbol="FONT_MEDIUM"/>
 <entry id="8388663" method="true" symbol="testAdd"/>
-<entry field="true" id="43" symbol="msPerLap"/>
+<entry field="true" id="44" symbol="msPerLap"/>
 <entry id="8389119" method="true" symbol="getDirection"/>
 <entry field="true" id="8389475" symbol="rightPedalSmoothness"/>
 <entry id="8389101" method="true" symbol="onSwipe"/>
@@ -279,6 +296,7 @@
 <entry id="8389023" object="true" symbol="View"/>
 <entry id="8389087" method="true" symbol="setProgress"/>
 <entry id="8388899" method="true" symbol="log"/>
+<entry field="true" id="41" symbol="device"/>
 <entry id="13" object="true" symbol="PacingView"/>
 <entry field="true" id="8389501" symbol="muscleMass"/>
 <entry id="8389099" method="true" symbol="onHold"/>
@@ -293,7 +311,7 @@
 <entry id="8388659" method="true" symbol="testAbs"/>
 <entry field="true" id="8388989" symbol="dutyCycle"/>
 <entry id="8389043" object="true" symbol="ProgressBar"/>
-<entry field="true" id="41" symbol="AppName"/>
+<entry field="true" id="42" symbol="AppName"/>
 <entry field="true" id="8388927" symbol="SECONDS_PER_YEAR"/>
 <entry id="8389418" object="true" symbol="CommonData"/>
 <entry id="8389114" method="true" symbol="getType"/>
@@ -370,7 +388,7 @@
 <entry field="true" id="8388838" symbol="SPORT_TENNIS"/>
 <entry field="true" id="8388961" symbol="power"/>
 <entry field="true" id="8388747" symbol="currentHeartRate"/>
-<entry field="true" id="50" symbol="shortVibe"/>
+<entry field="true" id="52" symbol="shortVibe"/>
 <entry field="true" id="8388967" symbol="TONE_START"/>
 <entry field="true" id="8389143" symbol="weight"/>
 <entry field="true" id="8389006" symbol="ANIM_TYPE_LINEAR"/>
@@ -809,7 +827,7 @@
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry field="true" id="8388843" symbol="SPORT_ALPINE_SKIING"/>
 <entry field="true" id="8389262" symbol="DEFAULT_DEVICE_NUMBER"/>
-<entry field="true" id="46" symbol="lapVibe"/>
+<entry field="true" id="47" symbol="lapVibe"/>
 <entry field="true" id="8389543" symbol="phoneConnected"/>
 <entry id="8388904" method="true" symbol="srand"/>
 <entry field="true" id="8389413" symbol="BATT_STATUS_OK"/>
@@ -845,7 +863,7 @@
 <entry field="true" id="8389017" symbol="SWIPE_DOWN"/>
 <entry id="8388656" object="true" symbol="InputDelegate"/>
 <entry field="true" id="8388720" symbol="hour"/>
-<entry id="52" method="true" symbol="timerCountdown"/>
+<entry id="54" method="true" symbol="timerCountdown"/>
 <entry id="8389134" method="true" symbol="setText"/>
 <entry id="8389255" method="true" symbol="setDeviceConfig"/>
 <entry id="8388909" method="true" symbol="getInfo"/>
@@ -882,7 +900,7 @@
 <entry id="8389353" symbol="&lt;dan&gt;"/>
 <entry field="true" id="8388840" symbol="SPORT_TRAINING"/>
 <entry field="true" id="32" symbol="track_icon"/>
-<entry field="true" id="44" symbol="prevLapNbr"/>
+<entry field="true" id="45" symbol="prevLapNbr"/>
 <entry id="26" object="true" symbol="CountdownView"/>
 <entry field="true" id="8388981" symbol="TONE_SUCCESS"/>
 <entry id="8389514" method="true" symbol="getCalculatedWheelDistance"/>
@@ -891,7 +909,7 @@
 <entry field="true" id="34" symbol="right_arrow"/>
 <entry field="true" id="8388916" symbol="startOfDay"/>
 <entry field="true" id="8388752" symbol="maxCadence"/>
-<entry field="true" id="47" symbol="doneVibe"/>
+<entry field="true" id="48" symbol="doneVibe"/>
 <entry id="8389338" symbol="minute"/>
 <entry id="8389086" symbol="mProgressValue"/>
 <entry field="true" id="8389199" symbol="MSG_ID_CHANNEL_ID"/>
@@ -989,9 +1007,10 @@
 <entry field="true" id="8389315" symbol="longitude"/>
 <entry field="true" id="8389518" symbol="wheelDistance"/>
 <entry id="8389308" method="true" symbol="toRadians"/>
+<entry id="49" symbol="mDevice"/>
 <entry id="8389083" method="true" symbol="onPreviousMode"/>
 <entry field="true" id="8389474" symbol="leftOrCombinedPedalSmoothness"/>
-<entry field="true" id="49" symbol="secs"/>
+<entry field="true" id="51" symbol="secs"/>
 <entry id="8389286" method="true" symbol="loadProperties"/>
 <entry field="true" id="8388863" symbol="SUB_SPORT_TRACK_CYCLING"/>
 <entry field="true" id="8388733" symbol="timerTime"/>
@@ -1043,7 +1062,7 @@
 <entry field="true" id="8389448" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_2"/>
 <entry field="true" id="8389447" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_1"/>
 <entry field="true" id="8389446" symbol="WEIGHT_SCALE_ACTIVITY_LEVEL_0"/>
-<entry field="true" id="51" symbol="longVibe"/>
+<entry field="true" id="53" symbol="longVibe"/>
 <entry field="true" id="8389387" symbol="FONT_NUMBER_HOT"/>
 <entry id="8389373" symbol="&lt;jpn&gt;"/>
 <entry id="8388762" object="true" symbol="Boolean"/>
@@ -1165,11 +1184,11 @@
 <entry id="8389346" symbol="text"/>
 <entry field="true" id="8388749" symbol="maxHeartRate"/>
 <entry id="8389181" method="true" symbol="drawRectangle"/>
-<entry field="true" id="42" symbol="msTotal"/>
+<entry field="true" id="43" symbol="msTotal"/>
 <entry field="true" id="8389403" symbol="paceUnits"/>
 <entry id="8389341" symbol="days"/>
 <entry field="true" id="8388977" symbol="TONE_CANARY"/>
-<entry field="true" id="45" symbol="startVibe"/>
+<entry field="true" id="46" symbol="startVibe"/>
 <entry field="true" id="8388919" symbol="FORMAT_LONG"/>
 <entry field="true" id="8389459" symbol="WEIGHT_SCALE_STATUS_RECEIVING"/>
 <entry id="8388903" method="true" symbol="sqrt"/>
@@ -1192,7 +1211,7 @@
 <entry field="true" id="8389507" symbol="activityLevel"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8389333" symbol="tuesday"/>
-<entry id="48" method="true" symbol="timerPacingTimer"/>
+<entry id="50" method="true" symbol="timerPacingTimer"/>
 <entry field="true" id="8389018" symbol="SWIPE_LEFT"/>
 <entry id="8388682" method="true" symbol="testNaN"/>
 <entry field="true" id="8389444" symbol="WEIGHT_SCALE_GENDER_UNASSIGNED"/>

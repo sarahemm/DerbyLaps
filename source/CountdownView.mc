@@ -9,6 +9,8 @@ class CountdownView extends Ui.View {
 	var secs = 3;
 	var shortVibe;
 	var longVibe;
+	hidden var mDevice = Ui.loadResource(Rez.Strings.device);
+	
 	
     //! Load your resources here
     function onLayout(dc) {
@@ -23,7 +25,10 @@ class CountdownView extends Ui.View {
     	countdownTimer.start(method(:timerCountdown), 1000, true);
     	shortVibe = [new Attn.VibeProfile(100, 250)];
     	Attn.vibrate(shortVibe);
-		// Attn.playTone(Attn.TONE_KEY);
+    	
+    	if (!mDevice.equals("vivoactive")) {
+		  Attn.playTone(Attn.TONE_KEY);
+		}  
     }
 
     //! Update the view
@@ -50,7 +55,10 @@ class CountdownView extends Ui.View {
 			Ui.pushView(new PacingView(), new PacingDelegate(), Ui.SLIDE_UP);
 	 	} else {
 	 		Attn.vibrate(shortVibe);
-			// Attn.playTone(Attn.TONE_KEY);
+			
+			if (!mDevice.equals("vivoactive")) {
+			  Attn.playTone(Attn.TONE_KEY);
+			}  
 	 	}
 		Ui.requestUpdate();
 	}
