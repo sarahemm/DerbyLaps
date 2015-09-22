@@ -1,3 +1,0 @@
-<layout id="CountdownLayout">
-    <label id="countdown" x="center" y="center" text="3" font="Gfx.FONT_NUMBER_THAI_HOT" color="Gfx.COLOR_RED" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-</layout>

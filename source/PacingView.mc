@@ -10,8 +10,6 @@ var lapNbr = 1;
 var msRemaining;
 var session;
 
-
-
 class PacingView extends Ui.View {
 	var msTotal = mins * 60 * 1000;
 	var msPerLap = msTotal / laps;
@@ -19,8 +17,6 @@ class PacingView extends Ui.View {
 	var startVibe;
 	var lapVibe;
 	var doneVibe;
-
-    hidden var mDevice = Ui.loadResource(Rez.Strings.device);
 
     //! Load your resources here
     function onLayout(dc) {
@@ -39,9 +35,7 @@ class PacingView extends Ui.View {
 			new Attn.VibeProfile(50,  250),
 			new Attn.VibeProfile(100, 1000)
 		];
-		if (!mDevice.equals("vivoactive")) {
-		  Attn.playTone(Attn.TONE_START);
-		}  
+		Attn.playTone(Attn.TONE_START);
 		Attn.vibrate(startVibe);
 		// get ready to start a new FIT recording
 		session = Recording.createSession({
@@ -49,10 +43,7 @@ class PacingView extends Ui.View {
 			:sport => Recording.SPORT_TRAINING
 		});
 		// turn on the heart rate and temperature sensors and start recording
-
-        if (!mDevice.equals("vivoactive")) {
-		  Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE, Sensor.SENSOR_TEMPERATURE]);
-		}  
+		Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE, Sensor.SENSOR_TEMPERATURE]);
 		session.start();
     }
 
@@ -89,10 +80,7 @@ class PacingView extends Ui.View {
     	if(msRemaining <= 0) {
     		// all done, go back to the setup screen
     		Attn.vibrate(doneVibe);
-    	    
-    	    if (!mDevice.equals("vivoactive")) {
-			  Attn.playTone(Attn.TONE_STOP);
-			}
+			Attn.playTone(Attn.TONE_STOP);
     		
     		pacingTimer.stop();
 			// stop and save the FIT recording
@@ -109,20 +97,13 @@ class PacingView extends Ui.View {
 		if(lapNbr > prevLapNbr) {
 			// new lap
 			// add the new lap to the FIT recording session
-
-			if (!mDevice.equals("vivoactive")) {
-			  session.addLap();
-			}
-
+			session.addLap();
 			// show them in large text the new lap number
 			// this view will pop itself after being displayed for a brief time
 			Ui.pushView(new LapNotifyView(), new LapNotifyDelegate(), Ui.SLIDE_IMMEDIATE);
 			// buzz to indicate the skater should be at the start line right now
 			Attn.vibrate(lapVibe);
-			
-			if (!mDevice.equals("vivoactive")) {
-			  Attn.playTone(Attn.TONE_LAP);
-			}  
+			Attn.playTone(Attn.TONE_LAP);
     	}
     	prevLapNbr = lapNbr;
     	
