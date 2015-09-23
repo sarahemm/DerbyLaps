@@ -1,0 +1,18 @@
+<layout id="SetupLayout">
+    <bitmap id="track_icon" x="center" y="12" filename="../images/track_blackbg.png" />
+    <bitmap id="right_arrow" x="190" y="35" filename="../images/right_arrow.png" />
+    
+    <label x="92"     y="80" text="Pacing" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+    <label x="112"     y="80" text="27" id="laps" color="Gfx.COLOR_GREEN" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label x="132"    y="80" text="laps" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+
+    <label x="60"     y="110" text="in" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
+    <label x="75"     y="110" text="5" id="mins" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label x="90"     y="110" text="minutes" id="minsLabel" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+
+	<label x="170" y="30" text="Start" id="ready" font="Gfx.FONT_TINY" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	
+	<bitmap id="up_arrow" x="5" y="110" filename="../images/up_arrow_30px.png" />
+	<bitmap id="down_arrow" x="170" y="110" filename="../images/down_arrow_30px.png" />
+
+</layout>
