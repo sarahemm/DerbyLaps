@@ -4,12 +4,13 @@ using Toybox.System as Sys;
 using Toybox.Attention as Attn;
 
 var countdownTimer;
+var mDevice = Ui.loadResource(Rez.Strings.device);
 
 class CountdownView extends Ui.View {
 	var secs = 3;
 	var shortVibe;
 	var longVibe;
-	hidden var mDevice = Ui.loadResource(Rez.Strings.device);
+	
 	
 	
     //! Load your resources here
@@ -27,7 +28,7 @@ class CountdownView extends Ui.View {
     	Attn.vibrate(shortVibe);
     	
     	if (!mDevice.equals("vivoactive")) {
-		  Attn.playTone(Attn.TONE_KEY);
+		    Attn.playTone(Attn.TONE_KEY);
 		}  
     }
 
@@ -54,10 +55,10 @@ class CountdownView extends Ui.View {
 			state = STATE_RUNNING;
 			Ui.pushView(new PacingView(), new PacingDelegate(), Ui.SLIDE_UP);
 	 	} else {
-	 		Attn.vibrate(shortVibe);
+	 	    Attn.vibrate(shortVibe);
 			
 			if (!mDevice.equals("vivoactive")) {
-			  Attn.playTone(Attn.TONE_KEY);
+			    Attn.playTone(Attn.TONE_KEY);
 			}  
 	 	}
 		Ui.requestUpdate();

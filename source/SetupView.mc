@@ -97,6 +97,7 @@ class SetupDelegate extends Ui.BehaviorDelegate {
     
     function onTap(evt){
        var coord = evt.getCoordinates();
+       
        if( (Math.pow((coord[0] - 20),2) + Math.pow((coord[1] - 125),2) < Math.pow(15, 2)) && evt.getType() == Ui.CLICK_TYPE_TAP) {
 			// increment the field currently being set
 			if(state == STATE_SET_LAPS) {

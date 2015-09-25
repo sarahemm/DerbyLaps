@@ -9,7 +9,7 @@ var pacingTimer;
 var lapNbr = 1;
 var msRemaining;
 var session;
-
+var mDevice = Ui.loadResource(Rez.Strings.device);
 
 
 class PacingView extends Ui.View {
@@ -19,8 +19,7 @@ class PacingView extends Ui.View {
 	var startVibe;
 	var lapVibe;
 	var doneVibe;
-
-    hidden var mDevice = Ui.loadResource(Rez.Strings.device);
+    
 
     //! Load your resources here
     function onLayout(dc) {
@@ -39,21 +38,23 @@ class PacingView extends Ui.View {
 			new Attn.VibeProfile(50,  250),
 			new Attn.VibeProfile(100, 1000)
 		];
+		
 		if (!mDevice.equals("vivoactive")) {
-		  Attn.playTone(Attn.TONE_START);
+		    Attn.playTone(Attn.TONE_START);
+		  
+     	    // get ready to start a new FIT recording
+		    session = Recording.createSession({
+			    :name => "Derby Laps",
+			    :sport => Recording.SPORT_TRAINING
+		    });
+	
+	    	// turn on the heart rate and temperature sensors and start recording
+ 
+		    Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE, Sensor.SENSOR_TEMPERATURE]);
+		    session.start();
 		}  
+		
 		Attn.vibrate(startVibe);
-		// get ready to start a new FIT recording
-		session = Recording.createSession({
-			:name => "Derby Laps",
-			:sport => Recording.SPORT_TRAINING
-		});
-		// turn on the heart rate and temperature sensors and start recording
-
-        if (!mDevice.equals("vivoactive")) {
-		  Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE, Sensor.SENSOR_TEMPERATURE]);
-		}  
-		session.start();
     }
 
     //! Called when this View is brought to the foreground. Restore
@@ -90,14 +91,14 @@ class PacingView extends Ui.View {
     		// all done, go back to the setup screen
     		Attn.vibrate(doneVibe);
     	    
+       		pacingTimer.stop();
+       		
     	    if (!mDevice.equals("vivoactive")) {
-			  Attn.playTone(Attn.TONE_STOP);
-			}
-    		
-    		pacingTimer.stop();
-			// stop and save the FIT recording
-    		session.stop();
-    		session.save();
+			    Attn.playTone(Attn.TONE_STOP);
+    			// stop and save the FIT recording
+        		session.stop();
+    	    	session.save();
+    		}
     		state = STATE_READY;
     		Ui.popView(Ui.SLIDE_IMMEDIATE);
 			Ui.pushView(new LapNotifyView(), new LapNotifyDelegate(), Ui.SLIDE_IMMEDIATE);
@@ -109,11 +110,9 @@ class PacingView extends Ui.View {
 		if(lapNbr > prevLapNbr) {
 			// new lap
 			// add the new lap to the FIT recording session
-
 			if (!mDevice.equals("vivoactive")) {
-			  session.addLap();
+			    session.addLap();
 			}
-
 			// show them in large text the new lap number
 			// this view will pop itself after being displayed for a brief time
 			Ui.pushView(new LapNotifyView(), new LapNotifyDelegate(), Ui.SLIDE_IMMEDIATE);
@@ -121,12 +120,11 @@ class PacingView extends Ui.View {
 			Attn.vibrate(lapVibe);
 			
 			if (!mDevice.equals("vivoactive")) {
-			  Attn.playTone(Attn.TONE_LAP);
+			    Attn.playTone(Attn.TONE_LAP);
 			}  
     	}
-    	prevLapNbr = lapNbr;
-    	
-		Ui.requestUpdate();
+     	prevLapNbr = lapNbr;
+    	Ui.requestUpdate();
     }
 }
 
@@ -135,14 +133,15 @@ class PacingDelegate extends Ui.BehaviorDelegate {
 		if(evt.getKey() == Ui.KEY_ESC && evt.getType() == Ui.PRESS_TYPE_ACTION) {
 			pacingTimer.stop();
 			// stop and save whatever we have so far in the FIT recording
-    		session.stop();
-    		session.save();
+            if (!mDevice.equals("vivoactive")) {
+    		    session.stop();
+    		    session.save();
+    		}    
     		// go back to the setup screen
 			state = STATE_READY;
 			Ui.popView(Ui.SLIDE_DOWN);
 			return true;
 		}
-		
 		return false;
     }
 }

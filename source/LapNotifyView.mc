@@ -11,6 +11,7 @@ class LapNotifyView extends Ui.View {
         setLayout(Rez.Layouts.LapNotifyLayout(dc));
       	timer = new Timer.Timer();
     	timer.start(method(:timerHide), 1500, true);
+
     }
 
     //! Called when this View is brought to the foreground. Restore
@@ -39,7 +40,7 @@ class LapNotifyView extends Ui.View {
     //! memory.
     function onHide() {
     }
-    
+
 	function timerHide() {
 		timer.stop();
 		Ui.popView(Ui.SLIDE_IMMEDIATE);
