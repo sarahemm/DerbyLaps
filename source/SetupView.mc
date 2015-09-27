@@ -123,5 +123,9 @@ class SetupDelegate extends Ui.BehaviorDelegate {
     	Ui.requestUpdate();    
     	return true;
     }
-
+    
+    function onMenu() {
+        Ui.pushView(new Rez.Menus.OptionsMenu(), new OptionsMenuView(), Ui.SLIDE_UP);
+        return true;
+    }
 }
