@@ -1,6 +1,9 @@
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
+using Toybox.Attention as Attn;
+
+var countdownToggle = false;
 
 class SetupView extends Ui.View {
 
@@ -55,13 +58,22 @@ class SetupView extends Ui.View {
 }
 
 class SetupDelegate extends Ui.BehaviorDelegate {
+	var shortVibe = [new Attn.VibeProfile(100, 250)];
+
 	function onKey(evt) {
     	if(evt.getKey() == Ui.KEY_ENTER && evt.getType() == Ui.PRESS_TYPE_ACTION) {
     		// go to the next state
         	state += 1;
-        	if(state == STATE_COUNTDOWN) {
-        		Ui.pushView(new CountdownView(), new CountdownDelegate(), Ui.SLIDE_UP);
-        	}
+        	
+        	if(!countdownToggle) {
+        		if(state == STATE_COUNTDOWN) {
+        			Ui.pushView(new CountdownView(), new CountdownDelegate(), Ui.SLIDE_UP);
+        		}
+        	} else if(state == STATE_COUNTDOWN) {
+        		state = STATE_RUNNING;
+        		Attn.vibrate(shortVibe);
+				Ui.pushView(new PacingView(), new PacingDelegate(), Ui.SLIDE_UP);
+        	}	
     	} else if(evt.getKey() == Ui.KEY_ESC && evt.getType() == Ui.PRESS_TYPE_ACTION) {
 			// go back to the previous state (if possible)
         	state -= 1;
