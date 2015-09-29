@@ -65,9 +65,10 @@ class SetupDelegate extends Ui.BehaviorDelegate {
     		// go to the next state
         	state += 1;
         	
+        	// check toggle for whether to start with countdown or not
         	if(!countdownToggle) {
         		if(state == STATE_COUNTDOWN) {
-        			Ui.pushView(new CountdownView(), new CountdownDelegate(), Ui.SLIDE_UP);
+					Ui.pushView(new CountdownView(), new CountdownDelegate(), Ui.SLIDE_UP);
         		}
         	} else if(state == STATE_COUNTDOWN) {
         		state = STATE_RUNNING;
