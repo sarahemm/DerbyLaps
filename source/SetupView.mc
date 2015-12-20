@@ -1,6 +1,9 @@
 using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
+using Toybox.Attention as Attn;
+
+var countdownToggle = false;
 
 class SetupView extends Ui.View {
 
@@ -55,13 +58,23 @@ class SetupView extends Ui.View {
 }
 
 class SetupDelegate extends Ui.BehaviorDelegate {
+	var shortVibe = [new Attn.VibeProfile(100, 250)];
+
 	function onKey(evt) {
     	if(evt.getKey() == Ui.KEY_ENTER && evt.getType() == Ui.PRESS_TYPE_ACTION) {
     		// go to the next state
         	state += 1;
-        	if(state == STATE_COUNTDOWN) {
-        		Ui.pushView(new CountdownView(), new CountdownDelegate(), Ui.SLIDE_UP);
-        	}
+        	
+        	// check toggle for whether to start with countdown or not
+        	if(!countdownToggle) {
+        		if(state == STATE_COUNTDOWN) {
+					Ui.pushView(new CountdownView(), new CountdownDelegate(), Ui.SLIDE_UP);
+        		}
+        	} else if(state == STATE_COUNTDOWN) {
+        		state = STATE_RUNNING;
+        		Attn.vibrate(shortVibe);
+				Ui.pushView(new PacingView(), new PacingDelegate(), Ui.SLIDE_UP);
+        	}	
     	} else if(evt.getKey() == Ui.KEY_ESC && evt.getType() == Ui.PRESS_TYPE_ACTION) {
 			// go back to the previous state (if possible)
         	state -= 1;
@@ -94,5 +107,38 @@ class SetupDelegate extends Ui.BehaviorDelegate {
     	Ui.requestUpdate();
     	return true;
     }
-
+    
+    function onTap(evt){
+       var coord = evt.getCoordinates();
+       
+       if( (Math.pow((coord[0] - 20),2) + Math.pow((coord[1] - 125),2) < Math.pow(15, 2)) && evt.getType() == Ui.CLICK_TYPE_TAP) {
+			// increment the field currently being set
+			if(state == STATE_SET_LAPS) {
+				laps += 1;
+				if(laps > 99) { laps = 99; }
+			} else if(state == STATE_SET_MINS) {
+				mins += 1;
+				if(mins > 30) { mins = 30; }
+			}
+       	}  else if( (Math.pow((coord[0] - 185),2) + Math.pow((coord[1] - 125),2) < Math.pow(20, 2)) && evt.getType() == Ui.CLICK_TYPE_TAP) {
+			// decrement the field currently being set
+			if(state == STATE_SET_LAPS) {
+				laps -= 1;
+				if(laps < 1) { laps = 1; }
+				
+			} else if(state == STATE_SET_MINS) {
+				mins -= 1;
+				if(mins < 1) { mins = 1; }
+			}
+       	}  else {
+    		return false;
+    	}
+    	Ui.requestUpdate();    
+    	return true;
+    }
+    
+    function onMenu() {
+        Ui.pushView(new Rez.Menus.OptionsMenu(), new OptionsMenuView(), Ui.SLIDE_UP);
+        return true;
+    }
 }
