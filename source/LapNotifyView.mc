@@ -25,10 +25,10 @@ class LapNotifyView extends Ui.View {
     	var lapView = View.findDrawableById("lap");
     	var lapLabelView = View.findDrawableById("lapLabel");
     	if(msRemaining == 0) {
-	    	lapLabelView.setText(Rez.strings.Laps);
-	    	lapView.setText(Rez.strings.done);
+	    	lapLabelView.setText(Rez.Strings.Laps);
+	    	lapView.setText(Rez.Strings.done);
     	} else {
-	    	lapLabelView.setText(Rez.strings.Lap);
+	    	lapLabelView.setText(Rez.Strings.Lap);
     		lapView.setText(lapNbr.format("%d"));
     	}
     }
