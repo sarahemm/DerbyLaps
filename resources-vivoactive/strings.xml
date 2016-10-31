@@ -1,5 +1,7 @@
 <resources>
   
   <string id="device">vivoactive</string>
-
+  <string id="AppName">Derby Laps</string>
+  
+  <string id="ReadyMessage">start</string>
 </resources>

@@ -6,7 +6,10 @@ using Toybox.Attention as Attn;
 var countdownToggle = false;
 
 class SetupView extends Ui.View {
-
+	function initialize() {
+		Ui.View.initialize();
+	}
+	
     //! Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.SetupLayout(dc));
@@ -34,9 +37,9 @@ class SetupView extends Ui.View {
 			minsView.setColor(Gfx.COLOR_GREEN);
 			minsView.setText(mins.format("%d"));
 			if(mins == 1) {
-				minsLabelView.setText("minute");
+				minsLabelView.setText(Rez.Strings.minute);
 			} else {
-				minsLabelView.setText("minutes");
+				minsLabelView.setText(Rez.Strings.minutes);
 			}
 			readyView.setColor(Gfx.COLOR_BLACK);
 		} else if(state == STATE_READY) {
@@ -59,6 +62,10 @@ class SetupView extends Ui.View {
 
 class SetupDelegate extends Ui.BehaviorDelegate {
 	var shortVibe = [new Attn.VibeProfile(100, 250)];
+
+	function initialize() {
+		Ui.BehaviorDelegate.initialize();
+	}
 
 	function onKey(evt) {
     	if(evt.getKey() == Ui.KEY_ENTER && evt.getType() == Ui.PRESS_TYPE_ACTION) {

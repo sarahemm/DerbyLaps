@@ -9,8 +9,6 @@ var pacingTimer;
 var lapNbr = 1;
 var msRemaining;
 var session;
-var mDevice = Ui.loadResource(Rez.Strings.device);
-
 
 class PacingView extends Ui.View {
 	var msTotal = mins * 60 * 1000;
@@ -20,6 +18,9 @@ class PacingView extends Ui.View {
 	var lapVibe;
 	var doneVibe;
     
+    function initialize() {
+    	Ui.View.initialize();
+    }
 
     //! Load your resources here
     function onLayout(dc) {
@@ -129,6 +130,10 @@ class PacingView extends Ui.View {
 }
 
 class PacingDelegate extends Ui.BehaviorDelegate {
+	function initialize() {
+		Ui.BehaviorDelegate.initialize();
+	}
+	
 	function onKey(evt) {
 		if(evt.getKey() == Ui.KEY_ESC && evt.getType() == Ui.PRESS_TYPE_ACTION) {
 			pacingTimer.stop();

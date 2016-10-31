@@ -2,11 +2,15 @@ using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
 
 class CountdownOptionsMenuView extends Ui.MenuInputDelegate {
+    function initialize() {
+        Ui.MenuInputDelegate.initialize();
+    }
+    
 
     function onMenuItem(item) {
-        if (item == :item_1) {
+        if (item == :on) {
             countdownToggle = false;
-        } else if (item == :item_2) {
+        } else if (item == :off) {
             countdownToggle = true;
         }
     }

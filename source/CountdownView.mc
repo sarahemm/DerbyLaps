@@ -11,7 +11,9 @@ class CountdownView extends Ui.View {
 	var shortVibe;
 	var longVibe;
 	
-	
+	function initialize() {
+		Ui.View.initialize();
+	}
 	
     //! Load your resources here
     function onLayout(dc) {
@@ -66,6 +68,10 @@ class CountdownView extends Ui.View {
 }
 
 class CountdownDelegate extends Ui.BehaviorDelegate {
+	function initialize() {
+		Ui.BehaviorDelegate.initialize();
+	}
+	
 	function onKey(evt) {
 		if(evt.getKey() == Ui.KEY_ESC && evt.getType() == Ui.PRESS_TYPE_ACTION) {
 			countdownTimer.stop();

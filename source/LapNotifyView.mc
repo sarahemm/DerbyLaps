@@ -6,6 +6,10 @@ using Toybox.Attention as Attn;
 class LapNotifyView extends Ui.View {
 	var timer;
 	
+	function initialize() {
+		Ui.View.initialize();
+	}
+	
     //! Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.LapNotifyLayout(dc));
@@ -21,10 +25,10 @@ class LapNotifyView extends Ui.View {
     	var lapView = View.findDrawableById("lap");
     	var lapLabelView = View.findDrawableById("lapLabel");
     	if(msRemaining == 0) {
-	    	lapLabelView.setText("Laps");
-	    	lapView.setText("done");
+	    	lapLabelView.setText(Rez.strings.Laps);
+	    	lapView.setText(Rez.strings.done);
     	} else {
-	    	lapLabelView.setText("Lap");
+	    	lapLabelView.setText(Rez.strings.Lap);
     		lapView.setText(lapNbr.format("%d"));
     	}
     }
@@ -48,6 +52,10 @@ class LapNotifyView extends Ui.View {
 }
 
 class LapNotifyDelegate extends Ui.BehaviorDelegate {
+	function initialize() {
+		Ui.BehaviorDelegate.initialize();
+	}
+	
 	function onKey(evt) {
 		return false;
     }

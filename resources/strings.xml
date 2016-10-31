@@ -1,5 +1,23 @@
 <resources>
 
   <string id="device">round_watch</string>
-
+  <string id="AppName">Derby Laps</string>
+  
+  <string id="Pacing">Pacing</string>
+  <string id="laps">laps</string>
+  <string id="Lap">Lap</string>
+  <string id="Laps">Laps</string>
+  <string id="in">in</string>
+  <string id="minute">minute</string>
+  <string id="minutes">minutes</string>
+  <string id="Zero">0</string>
+  <string id="Three">3</string>
+  <string id="Five">5</string>
+  <string id="TwentySeven">27</string>
+  <string id="FiveMinutes">5:00.00</string>
+  <string id="Countdown">Countdown</string>
+  <string id="On">On</string>
+  <string id="Off">Off</string>
+  
+  <string id="ReadyMessage">Press START\nfor countdown</string>
 </resources>
