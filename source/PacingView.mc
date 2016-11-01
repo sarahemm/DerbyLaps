@@ -50,7 +50,6 @@ class PacingView extends Ui.View {
 		    });
 	
 	    	// turn on the heart rate and temperature sensors and start recording
- 
 		    Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE, Sensor.SENSOR_TEMPERATURE]);
 		    session.start();
 		}  
@@ -68,13 +67,19 @@ class PacingView extends Ui.View {
     function onUpdate(dc) {
     	var timeView = View.findDrawableById("time");
     	var lapView = View.findDrawableById("lap");
+    	var bpmView = View.findDrawableById("bpm");
+    	var sensorInfo = Sensor.getInfo();
     	timeView.setText(Lang.format("$1$:$2$.$3$", [
     		msRemaining / 60000,
     		(msRemaining / 1000 % 60).format("%02d"),
     		msRemaining % 1000 / 100
     	]));
     	lapView.setText(lapNbr.format("%d"));
-    	
+    	if(sensorInfo.heartRate) {
+    		bpmView.setText(Lang.format("$1$ bpm", [sensorInfo.heartRate]));
+    	} else {
+			bpmView.setText("");
+    	}
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }

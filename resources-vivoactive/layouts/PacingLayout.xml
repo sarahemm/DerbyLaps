@@ -1,6 +1,7 @@
 <layout id="PacingLayout">
-	<label x="center" y="10" text="@Strings.Lap" font="Gfx.FONT_LARGE" color="Gfx.COLOR_BLUE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-    <label id="lap" x="center" y="100" text="@Strings.Zero" font="Gfx.FONT_LARGE" color="Gfx.COLOR_RED" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	<label          x="95"     y="10" text="@Strings.Lap"  font="Gfx.FONT_LARGE" color="Gfx.COLOR_BLUE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="lap" x="130"     y="10" text="@Strings.Zero" font="Gfx.FONT_LARGE" color="Gfx.COLOR_BLUE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 
     <label id="time" x="center" y="center" text="@Strings.FiveMinutes" font="Gfx.FONT_NUMBER_HOT" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="bpm"  x="center" y="100"                                font="Gfx.FONT_LARGE"      color="Gfx.COLOR_RED"   justification="Gfx.TEXT_JUSTIFY_CENTER" />
 </layout>

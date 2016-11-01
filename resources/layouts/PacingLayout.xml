@@ -3,4 +3,5 @@
     <label id="lap" x="150" y="40" text="@Strings.Zero" font="Gfx.FONT_LARGE" color="Gfx.COLOR_BLUE" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
 
     <label id="time" x="center" y="center" text="@Strings.FiveMinutes" font="Gfx.FONT_NUMBER_HOT" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label id="bpm"  x="center" y="140"                                font="Gfx.FONT_LARGE"      color="Gfx.COLOR_RED"   justification="Gfx.TEXT_JUSTIFY_CENTER" />
 </layout>
