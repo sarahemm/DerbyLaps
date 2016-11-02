@@ -46,7 +46,7 @@ class PacingView extends Ui.View {
      	    // get ready to start a new FIT recording
 		    session = Recording.createSession({
 			    :name => "Derby Laps",
-			    :sport => Recording.SPORT_TRAINING
+			    :sport => Recording.SPORT_GENERIC
 		    });
 	
 	    	// turn on the heart rate and temperature sensors and start recording
