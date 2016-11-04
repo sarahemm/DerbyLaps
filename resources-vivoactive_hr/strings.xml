@@ -1,0 +1,5 @@
+<resources>
+  <string id="device">vivoactive_hr</string>
+  
+   <string id="ReadyMessage">Ready!</string>
+</resources>

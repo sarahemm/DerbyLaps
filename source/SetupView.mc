@@ -28,6 +28,7 @@ class SetupView extends Ui.View {
     	var minsView = View.findDrawableById("mins");
     	var minsLabelView = View.findDrawableById("minsLabel");
     	var readyView = View.findDrawableById("ready");
+    	
 		if(state == STATE_SET_LAPS) {
 			lapsView.setColor(Gfx.COLOR_GREEN);
 			minsView.setColor(Gfx.COLOR_LT_GRAY);
@@ -90,24 +91,9 @@ class SetupDelegate extends Ui.BehaviorDelegate {
         		Ui.popView(Ui.SLIDE_DOWN);
         	}
     	} else if(evt.getKey() == Ui.KEY_UP && evt.getType() == Ui.PRESS_TYPE_ACTION) {
-			// increment the field currently being set
-			if(state == STATE_SET_LAPS) {
-				laps += 1;
-				if(laps > 99) { laps = 99; }
-			} else if(state == STATE_SET_MINS) {
-				mins += 1;
-				if(mins > 30) { mins = 30; }
-			}
+			incrementCurrentField();
     	} else if(evt.getKey() == Ui.KEY_DOWN && evt.getType() == Ui.PRESS_TYPE_ACTION) {
-			// decrement the field currently being set
-			if(state == STATE_SET_LAPS) {
-				laps -= 1;
-				if(laps < 1) { laps = 1; }
-				
-			} else if(state == STATE_SET_MINS) {
-				mins -= 1;
-				if(mins < 1) { mins = 1; }
-			}
+			decrementCurrentField();
     	} else {
     		return false;
     	}
@@ -116,28 +102,20 @@ class SetupDelegate extends Ui.BehaviorDelegate {
     }
     
     function onTap(evt){
-       var coord = evt.getCoordinates();
-       
-       if( (Math.pow((coord[0] - 20),2) + Math.pow((coord[1] - 125),2) < Math.pow(15, 2)) && evt.getType() == Ui.CLICK_TYPE_TAP) {
-			// increment the field currently being set
-			if(state == STATE_SET_LAPS) {
-				laps += 1;
-				if(laps > 99) { laps = 99; }
-			} else if(state == STATE_SET_MINS) {
-				mins += 1;
-				if(mins > 30) { mins = 30; }
+    	var coord = evt.getCoordinates();
+		if(mDevice.equals("vivoactive")) {
+			if( (Math.pow((coord[0] - 20),2) + Math.pow((coord[1] - 125),2) < Math.pow(15, 2)) && evt.getType() == Ui.CLICK_TYPE_TAP) {
+				incrementCurrentField();
+			} else if( (Math.pow((coord[0] - 185),2) + Math.pow((coord[1] - 125),2) < Math.pow(20, 2)) && evt.getType() == Ui.CLICK_TYPE_TAP) {
+				decrementCurrentField();
 			}
-       	}  else if( (Math.pow((coord[0] - 185),2) + Math.pow((coord[1] - 125),2) < Math.pow(20, 2)) && evt.getType() == Ui.CLICK_TYPE_TAP) {
-			// decrement the field currently being set
-			if(state == STATE_SET_LAPS) {
-				laps -= 1;
-				if(laps < 1) { laps = 1; }
-				
-			} else if(state == STATE_SET_MINS) {
-				mins -= 1;
-				if(mins < 1) { mins = 1; }
+		} else if(mDevice.equals("vivoactive_hr")) {
+      		if(coord[0] > 100 && coord[1] > 140 && evt.getType() == Ui.CLICK_TYPE_TAP) {
+				incrementCurrentField();
+	       	} else if(coord[0] < 50 && coord[1] > 140 && evt.getType() == Ui.CLICK_TYPE_TAP) {
+				decrementCurrentField();
 			}
-       	}  else {
+       	} else {
     		return false;
     	}
     	Ui.requestUpdate();    
@@ -148,4 +126,24 @@ class SetupDelegate extends Ui.BehaviorDelegate {
         Ui.pushView(new Rez.Menus.OptionsMenu(), new OptionsMenuView(), Ui.SLIDE_UP);
         return true;
     }
+    
+    function incrementCurrentField() {
+    	if(state == STATE_SET_LAPS) {
+			laps += 1;
+			if(laps > 99) { laps = 99; }
+		} else if(state == STATE_SET_MINS) {
+			mins += 1;
+			if(mins > 30) { mins = 30; }
+		}
+	}
+	
+	function decrementCurrentField() {
+		if(state == STATE_SET_LAPS) {
+			laps -= 1;
+			if(laps < 1) { laps = 1; }
+		} else if(state == STATE_SET_MINS) {
+			mins -= 1;
+			if(mins < 1) { mins = 1; }
+		}
+	}
 }

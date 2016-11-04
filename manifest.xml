@@ -3,6 +3,7 @@
 
         <iq:products>
             <iq:product id="square_watch"/>
+            <iq:product id="tall_watch"/>
             <iq:product id="round_watch"/>
             <iq:product id="vivoactive"/>
             <iq:product id="fenix3"/>
@@ -10,6 +11,7 @@
             <iq:product id="fenixchronos"/>
             <iq:product id="d2bravo"/>
             <iq:product id="d2bravo_titanium"/>
+            <iq:product id="vivoactive_hr"/>
         </iq:products>
 
         <iq:permissions>
