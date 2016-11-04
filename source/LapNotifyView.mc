@@ -24,7 +24,7 @@ class LapNotifyView extends Ui.View {
     function onShow() {
     	var lapView = View.findDrawableById("lap");
     	var lapLabelView = View.findDrawableById("lapLabel");
-    	if(msRemaining == 0) {
+    	if(msRemaining <= 0) {
 	    	lapLabelView.setText(Rez.Strings.Laps);
 	    	lapView.setText(Rez.Strings.done);
     	} else {

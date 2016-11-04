@@ -7,8 +7,10 @@ using Toybox.Sensor as Sensor;
 
 var pacingTimer;
 var lapNbr = 1;
+var msStart;
 var msRemaining;
 var session;
+var lastUpdatedSecond;
 
 class PacingView extends Ui.View {
 	var msTotal = mins * 60 * 1000;
@@ -25,7 +27,8 @@ class PacingView extends Ui.View {
     //! Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.PacingLayout(dc));
-    	msRemaining = msTotal;
+        msStart = Sys.getTimer();
+    	lastUpdatedSecond = 0;
     	pacingTimer = new Timer.Timer();
 		pacingTimer.start(method(:timerPacingTimer), 100, true);
     	startVibe = [new Attn.VibeProfile(100, 750)];
@@ -68,18 +71,26 @@ class PacingView extends Ui.View {
     	var timeView = View.findDrawableById("time");
     	var lapView = View.findDrawableById("lap");
     	var bpmView = View.findDrawableById("bpm");
-    	var sensorInfo = Sensor.getInfo();
+    	msRemaining = getMsRemaining();
+    	if(msRemaining < 0) {
+    		msRemaining = 0;
+    	}
+    	if(lastUpdatedSecond != msRemaining / 1000 % 60) {
+    		// only update bpm info on display once a second, as it seems to be time-consuming
+    		var sensorInfo = Sensor.getInfo();
+    		if(sensorInfo.heartRate) {
+    			bpmView.setText(Lang.format("$1$ bpm", [sensorInfo.heartRate]));
+    		} else {
+				bpmView.setText("");
+	    	}
+	    	lastUpdatedSecond = msRemaining / 1000 % 60;
+    	}
     	timeView.setText(Lang.format("$1$:$2$.$3$", [
     		msRemaining / 60000,
     		(msRemaining / 1000 % 60).format("%02d"),
     		msRemaining % 1000 / 100
     	]));
     	lapView.setText(lapNbr.format("%d"));
-    	if(sensorInfo.heartRate) {
-    		bpmView.setText(Lang.format("$1$ bpm", [sensorInfo.heartRate]));
-    	} else {
-			bpmView.setText("");
-    	}
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
@@ -91,8 +102,6 @@ class PacingView extends Ui.View {
     }
     
     function timerPacingTimer() {
-		msRemaining -= 100;
-		
     	if(msRemaining <= 0) {
     		// all done, go back to the setup screen
     		Attn.vibrate(doneVibe);
@@ -131,6 +140,10 @@ class PacingView extends Ui.View {
     	}
      	prevLapNbr = lapNbr;
     	Ui.requestUpdate();
+    }
+    
+    function getMsRemaining() {
+    	return (msStart + msTotal) - Sys.getTimer();
     }
 }
 
