@@ -59,6 +59,11 @@ class SetupView extends Ui.View {
 			}
 			readyView.setColor(Gfx.COLOR_BLACK);
 		} else if(state == STATE_READY) {
+		    if(countdownEnabled) {
+		    	readyView.setText(Rez.Strings.ReadyMessage);
+		    } else {
+				readyView.setText(Rez.Strings.ReadyMessageNoCountdown);
+		    }
 			minsView.setColor(Gfx.COLOR_WHITE);
 			lapsView.setColor(Gfx.COLOR_WHITE);
 			readyView.setColor(Gfx.COLOR_GREEN);

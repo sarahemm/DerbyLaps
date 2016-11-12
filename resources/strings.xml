@@ -24,4 +24,5 @@
   <string id="Off">Off</string>
   
   <string id="ReadyMessage">Press START\nfor countdown</string>
+  <string id="ReadyMessageNoCountdown">Press START\nto start</string>
 </resources>

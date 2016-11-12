@@ -2,4 +2,5 @@
   <string id="device">vivoactive_hr</string>
   
    <string id="ReadyMessage">Ready!</string>
+   <string id="ReadyMessageNoCountdown">Ready!</string>
 </resources>
