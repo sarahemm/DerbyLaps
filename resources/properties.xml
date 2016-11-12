@@ -1,0 +1,3 @@
+<properties>
+    <property id="countdownEnabled" type="boolean">true</property>
+</properties>

@@ -14,6 +14,8 @@ var state = STATE_SET_LAPS;
 var laps = 27;
 var mins = 5;
 
+var countdownEnabled = true;
+
 class DerbyLapsApp extends App.AppBase {
 	function initialize() {
 		AppBase.initialize();
@@ -21,6 +23,8 @@ class DerbyLapsApp extends App.AppBase {
 	
     //! onStart() is called on application start up
     function onStart(state) {
+    	// do the initial load of properties from the object store
+    	onSettingsChanged();
     }
 
     //! onStop() is called when your application is exiting
@@ -30,5 +34,11 @@ class DerbyLapsApp extends App.AppBase {
     //! Return the initial view of your application here
     function getInitialView() {
         return [ new SetupView(), new SetupDelegate() ];
+    }
+    
+    function onSettingsChanged() {
+    	var app = App.getApp();
+		countdownEnabled = app.getProperty("countdownEnabled");
+		Sys.println(countdownEnabled);
     }
 }

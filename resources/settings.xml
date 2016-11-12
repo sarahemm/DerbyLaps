@@ -1,0 +1,5 @@
+<settings>
+    <setting propertyKey="@Properties.countdownEnabled" title="@Strings.CountdownEnabledTitle">
+        <settingConfig type="boolean" />
+    </setting>
+</settings>

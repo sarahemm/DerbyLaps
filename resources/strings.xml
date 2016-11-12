@@ -2,6 +2,7 @@
 
   <string id="device">round_watch</string>
   <string id="AppName">Derby Laps</string>
+  <string id="CountdownEnabledTitle">Countdown Enabled</string>
   
   <string id="Pacing">Pacing</string>
   <string id="laps">laps</string>
