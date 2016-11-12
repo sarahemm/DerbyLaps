@@ -4,8 +4,12 @@ using Toybox.System as Sys;
 using Toybox.Attention as Attn;
 
 var countdownToggle = false;
+var bpmCheckTimer;
+var sensorInfo;
 
 class SetupView extends Ui.View {
+	var bmpHeart;
+	
 	function initialize() {
 		Ui.View.initialize();
 	}
@@ -13,6 +17,17 @@ class SetupView extends Ui.View {
     //! Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.SetupLayout(dc));
+       	
+		// load the heart icon we'll use to indicate heart rate data
+		bmpHeart = Ui.loadResource(Rez.Drawables.heart);
+
+       	// turn on the heart rate and temperature sensors so we can show if they're working
+		Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE, Sensor.SENSOR_TEMPERATURE]);
+		sensorInfo = Sensor.getInfo();
+		
+		// set up a timer to check twice a second if we're getting heart rate info
+		bpmCheckTimer = new Timer.Timer();
+		bpmCheckTimer.start(method(:timerBpmCheckTimer), 500, true);		
     }
 
     //! Called when this View is brought to the foreground. Restore
@@ -28,6 +43,7 @@ class SetupView extends Ui.View {
     	var minsView = View.findDrawableById("mins");
     	var minsLabelView = View.findDrawableById("minsLabel");
     	var readyView = View.findDrawableById("ready");
+    	var heartView = View.findDrawableById("heartIcon");
     	
 		if(state == STATE_SET_LAPS) {
 			lapsView.setColor(Gfx.COLOR_GREEN);
@@ -48,9 +64,15 @@ class SetupView extends Ui.View {
 			lapsView.setColor(Gfx.COLOR_WHITE);
 			readyView.setColor(Gfx.COLOR_GREEN);
 		}	
-    
+        
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+
+		// this has to come after the layout redraw or it draws over top of us
+        if(sensorInfo.heartRate) {
+	    	dc.drawBitmap(heartView.locX, heartView.locY, bmpHeart);
+	    }
+    
     }
 
     //! Called when this View is removed from the screen. Save the
@@ -58,7 +80,11 @@ class SetupView extends Ui.View {
     //! memory.
     function onHide() {
     }
-
+	
+	function timerBpmCheckTimer() {
+		sensorInfo = Sensor.getInfo();
+		Ui.requestUpdate();
+	}
 }
 
 class SetupDelegate extends Ui.BehaviorDelegate {

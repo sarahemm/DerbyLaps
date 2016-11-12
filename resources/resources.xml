@@ -1,3 +1,4 @@
 <resources>
     <bitmap id="LauncherIcon" filename="images/launcher_icon.png" />
+    <bitmap id="heart" filename="images/heart.png" />
 </resources>
