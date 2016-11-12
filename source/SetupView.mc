@@ -2,16 +2,19 @@ using Toybox.WatchUi as Ui;
 using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Attention as Attn;
+using Toybox.Application as App;
 
-var countdownToggle = false;
 var bpmCheckTimer;
 var sensorInfo;
+var countdownEnabled = true;
 
 class SetupView extends Ui.View {
 	var bmpHeart;
 	
 	function initialize() {
 		Ui.View.initialize();
+		var app = App.getApp();
+		countdownEnabled = app.getProperty("countdownEnabled");
 	}
 	
     //! Load your resources here
@@ -100,7 +103,7 @@ class SetupDelegate extends Ui.BehaviorDelegate {
         	state += 1;
         	
         	// check toggle for whether to start with countdown or not
-        	if(!countdownToggle) {
+        	if(countdownEnabled) {
         		if(state == STATE_COUNTDOWN) {
 					Ui.pushView(new CountdownView(), new CountdownDelegate(), Ui.SLIDE_UP);
         		}
