@@ -52,8 +52,7 @@ class PacingView extends Ui.View {
 			    :sport => Recording.SPORT_GENERIC
 		    });
 	
-	    	// turn on the heart rate and temperature sensors and start recording
-		    Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE, Sensor.SENSOR_TEMPERATURE]);
+			// start recording FIT session information
 		    session.start();
 		}  
 		

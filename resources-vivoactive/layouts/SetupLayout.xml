@@ -6,12 +6,14 @@
 	<bitmap id="down_arrow" x="170" y="110" filename="../images/down_arrow_30px.png" />    
     
     <label x="92"     y="80" text="@Strings.Pacing" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
-    <label x="112"     y="80" text="@Strings.TwentySeven" id="laps" color="Gfx.COLOR_GREEN" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label x="112"    y="80" text="@Strings.TwentySeven" id="laps" color="Gfx.COLOR_GREEN" justification="Gfx.TEXT_JUSTIFY_CENTER" />
     <label x="132"    y="80" text="@Strings.laps" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
 
     <label x="60"     y="110" text="@Strings.in" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_RIGHT" />
     <label x="75"     y="110" text="@Strings.Five" id="mins" color="Gfx.COLOR_LT_GRAY" justification="Gfx.TEXT_JUSTIFY_CENTER" />
     <label x="90"     y="110" text="@Strings.minutes" id="minsLabel" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_LEFT" />
+
+    <label x="12"     y="25"  id="heartIcon" />
 
 	<label x="170" y="30" text="@Strings.ReadyMessage" id="ready" font="Gfx.FONT_TINY" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 
