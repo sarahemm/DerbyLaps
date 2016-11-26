@@ -45,15 +45,17 @@ class PacingView extends Ui.View {
 		
 		if (!mDevice.equals("vivoactive")) {
 		    Attn.playTone(Attn.TONE_START);
-		  
-     	    // get ready to start a new FIT recording
-		    session = Recording.createSession({
-			    :name => "Derby Laps",
-			    :sport => Recording.SPORT_GENERIC
-		    });
-	
-			// start recording FIT session information
-		    session.start();
+		  	
+		    if(saveActivity) {
+     	    	// get ready to start a new FIT recording
+		    	session = Recording.createSession({
+			    	:name => "Derby Laps",
+			    	:sport => Recording.SPORT_GENERIC
+		    	});
+				
+				// start recording FIT session information
+		    	session.start();
+		    }
 		}  
 		
 		Attn.vibrate(startVibe);
@@ -109,9 +111,11 @@ class PacingView extends Ui.View {
        		
     	    if (!mDevice.equals("vivoactive")) {
 			    Attn.playTone(Attn.TONE_STOP);
-    			// stop and save the FIT recording
-        		session.stop();
-    	    	session.save();
+			    if(saveActivity) {
+	    			// stop and save the FIT recording
+    	    		session.stop();
+    		    	session.save();
+    		    }
     		}
     		state = STATE_READY;
     		Ui.popView(Ui.SLIDE_IMMEDIATE);
@@ -124,16 +128,19 @@ class PacingView extends Ui.View {
 		if(lapNbr > prevLapNbr) {
 			// new lap
 			// add the new lap to the FIT recording session
-			if (!mDevice.equals("vivoactive")) {
+			if (saveActivity && !mDevice.equals("vivoactive")) {
 			    session.addLap();
 			}
 			// show them in large text the new lap number
 			// this view will pop itself after being displayed for a brief time
 			Ui.pushView(new LapNotifyView(), new LapNotifyDelegate(), Ui.SLIDE_IMMEDIATE);
-			// buzz to indicate the skater should be at the start line right now
-			Attn.vibrate(lapVibe);
+
+			if(lapAlertVibe) {
+				// buzz to indicate the skater should be at the start line right now
+				Attn.vibrate(lapVibe);
+			}
 			
-			if (!mDevice.equals("vivoactive")) {
+			if (lapAlertTone && !mDevice.equals("vivoactive")) {
 			    Attn.playTone(Attn.TONE_LAP);
 			}  
     	}

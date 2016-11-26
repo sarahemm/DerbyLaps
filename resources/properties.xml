@@ -1,3 +1,6 @@
 <properties>
     <property id="countdownEnabled" type="boolean">true</property>
+    <property id="saveActivity" type="boolean">true</property>
+    <property id="lapAlertTone" type="boolean">true</property>
+    <property id="lapAlertVibe" type="boolean">true</property>
 </properties>

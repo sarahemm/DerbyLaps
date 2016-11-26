@@ -1,3 +1,5 @@
 <menu id="OptionsMenu">
     <menu-item id="countdown">@Strings.Countdown</menu-item>
+    <menu-item id="lapalert">@Strings.LapAlert</menu-item>
+    <menu-item id="saveactivity">@Strings.SaveActivity</menu-item>
 </menu>

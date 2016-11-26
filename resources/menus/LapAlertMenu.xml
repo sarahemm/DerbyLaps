@@ -1,0 +1,6 @@
+<menu id="LapAlertMenu">
+    <menu-item id="both">@Strings.VibrateTone</menu-item>
+    <menu-item id="vibe">@Strings.Vibrate</menu-item>
+    <menu-item id="tone">@Strings.Tone</menu-item>
+    <menu-item id="none">@Strings.None</menu-item>
+</menu>

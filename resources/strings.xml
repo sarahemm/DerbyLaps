@@ -20,9 +20,20 @@
   <string id="bpm">bpm</string>
   
   <string id="Countdown">Countdown</string>
+  <string id="LapAlert">Lap Alert</string>
+  <string id="SaveActivity">Save Activity</string>
+
+  <string id="LapAlertToneSetting">Lap Alert - Tone</string>
+  <string id="LapAlertVibeSetting">Lap Alert - Vibrate</string>
+
   <string id="On">On</string>
   <string id="Off">Off</string>
   
+  <string id="VibrateTone">Vibrate + Tone</string>
+  <string id="Vibrate">Vibrate</string>
+  <string id="Tone">Tone</string>
+  <string id="None">None</string>
+
   <string id="ReadyMessage">Press START\nfor countdown</string>
   <string id="ReadyMessageNoCountdown">Press START\nto start</string>
 </resources>

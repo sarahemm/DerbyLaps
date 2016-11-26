@@ -1,4 +1,4 @@
-<menu id="CountdownOptionsMenu">
+<menu id="OnOffMenu">
     <menu-item id="on">@Strings.On</menu-item>
     <menu-item id="off">@Strings.Off</menu-item>
 </menu>

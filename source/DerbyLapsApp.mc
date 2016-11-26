@@ -15,6 +15,9 @@ var laps = 27;
 var mins = 5;
 
 var countdownEnabled = true;
+var saveActivity = true;
+var lapAlertTone = true;
+var lapAlertVibe = true;
 
 class DerbyLapsApp extends App.AppBase {
 	function initialize() {

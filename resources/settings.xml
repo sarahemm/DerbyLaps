@@ -2,4 +2,13 @@
     <setting propertyKey="@Properties.countdownEnabled" title="@Strings.CountdownEnabledTitle">
         <settingConfig type="boolean" />
     </setting>
+    <setting propertyKey="@Properties.saveActivity" title="@Strings.SaveActivity">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.lapAlertTone" title="@Strings.LapAlertToneSetting">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.lapAlertVibe" title="@Strings.LapAlertVibeSetting">
+        <settingConfig type="boolean" />
+    </setting>
 </settings>
