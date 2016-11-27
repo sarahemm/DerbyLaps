@@ -45,18 +45,18 @@ class PacingView extends Ui.View {
 		
 		if (!mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
 		    Attn.playTone(Attn.TONE_START);
-		  	
-		    if(saveActivity) {
-     	    	// get ready to start a new FIT recording
-		    	session = Recording.createSession({
-			    	:name => "Derby Laps",
-			    	:sport => Recording.SPORT_GENERIC
-		    	});
-				
-				// start recording FIT session information
-		    	session.start();
-		    }
-		}  
+		}
+	
+	    if(saveActivity) {
+        	// get ready to start a new FIT recording
+	    	session = Recording.createSession({
+		    	:name => "Derby Laps",
+		    	:sport => Recording.SPORT_GENERIC
+	    	});
+			
+			// start recording FIT session information
+	    	session.start();
+	    }
 		
 		Attn.vibrate(startVibe);
     }
@@ -111,11 +111,12 @@ class PacingView extends Ui.View {
        		
 			if(!mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
 			    Attn.playTone(Attn.TONE_STOP);
-			    if(saveActivity) {
-	    			// stop and save the FIT recording
-    	    		session.stop();
-    		    	session.save();
-    		    }
+			}
+			
+			if(saveActivity) {
+	    		// stop and save the FIT recording
+    	    	session.stop();
+    		    session.save();
     		}
     		state = STATE_READY;
     		Ui.popView(Ui.SLIDE_IMMEDIATE);
@@ -128,7 +129,7 @@ class PacingView extends Ui.View {
 		if(lapNbr > prevLapNbr) {
 			// new lap
 			// add the new lap to the FIT recording session
-			if (saveActivity && !mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
+			if (saveActivity) {
 			    session.addLap();
 			}
 			// show them in large text the new lap number
@@ -162,7 +163,7 @@ class PacingDelegate extends Ui.BehaviorDelegate {
 		if(evt.getKey() == Ui.KEY_ESC && evt.getType() == Ui.PRESS_TYPE_ACTION) {
 			pacingTimer.stop();
 			// stop and save whatever we have so far in the FIT recording
-            if (!mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
+            if (saveActivity) {
     		    session.stop();
     		    session.save();
     		}    
