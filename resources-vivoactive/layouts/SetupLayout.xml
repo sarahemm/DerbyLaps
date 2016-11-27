@@ -15,6 +15,6 @@
 
     <label x="12"     y="25"  id="heartIcon" />
 
-	<label x="170" y="30" text="@Strings.ReadyMessage" id="ready" font="Gfx.FONT_TINY" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+	<label x="180" y="10" text="@Strings.ReadyMessage" id="ready" font="Gfx.FONT_TINY" color="Gfx.COLOR_BLACK" justification="Gfx.TEXT_JUSTIFY_CENTER" />
 
 </layout>
