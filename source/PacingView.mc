@@ -43,7 +43,7 @@ class PacingView extends Ui.View {
 			new Attn.VibeProfile(100, 1000)
 		];
 		
-		if (!mDevice.equals("vivoactive")) {
+		if (!mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
 		    Attn.playTone(Attn.TONE_START);
 		  	
 		    if(saveActivity) {
@@ -109,7 +109,7 @@ class PacingView extends Ui.View {
     	    
        		pacingTimer.stop();
        		
-    	    if (!mDevice.equals("vivoactive")) {
+			if(!mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
 			    Attn.playTone(Attn.TONE_STOP);
 			    if(saveActivity) {
 	    			// stop and save the FIT recording
@@ -128,7 +128,7 @@ class PacingView extends Ui.View {
 		if(lapNbr > prevLapNbr) {
 			// new lap
 			// add the new lap to the FIT recording session
-			if (saveActivity && !mDevice.equals("vivoactive")) {
+			if (saveActivity && !mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
 			    session.addLap();
 			}
 			// show them in large text the new lap number
@@ -140,7 +140,7 @@ class PacingView extends Ui.View {
 				Attn.vibrate(lapVibe);
 			}
 			
-			if (lapAlertTone && !mDevice.equals("vivoactive")) {
+			if (lapAlertTone && !mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
 			    Attn.playTone(Attn.TONE_LAP);
 			}  
     	}
@@ -162,7 +162,7 @@ class PacingDelegate extends Ui.BehaviorDelegate {
 		if(evt.getKey() == Ui.KEY_ESC && evt.getType() == Ui.PRESS_TYPE_ACTION) {
 			pacingTimer.stop();
 			// stop and save whatever we have so far in the FIT recording
-            if (!mDevice.equals("vivoactive")) {
+            if (!mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
     		    session.stop();
     		    session.save();
     		}    
