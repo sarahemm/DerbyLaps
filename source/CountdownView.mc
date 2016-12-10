@@ -29,7 +29,7 @@ class CountdownView extends Ui.View {
     	shortVibe = [new Attn.VibeProfile(100, 250)];
     	Attn.vibrate(shortVibe);
     	
-    	if (!mDevice.equals("vivoactive")) {
+    	if (!mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
 		    Attn.playTone(Attn.TONE_KEY);
 		}  
     }
@@ -59,7 +59,7 @@ class CountdownView extends Ui.View {
 	 	} else {
 	 	    Attn.vibrate(shortVibe);
 			
-			if (!mDevice.equals("vivoactive")) {
+			if (!mDevice.equals("vivoactive") && !mDevice.equals("vivoactive_hr")) {
 			    Attn.playTone(Attn.TONE_KEY);
 			}  
 	 	}
